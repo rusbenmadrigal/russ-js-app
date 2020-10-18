@@ -64,7 +64,7 @@ document.getElementById('product-form').addEventListener('submit', function(e) {
 
     const ui = new UI();
     if(name === '' || price === '' || year === '') {
-        return ui.showMessage('You Need to Complete Data', 'alert alert-danger');
+        return ui.showMessage('You Need to Complete Data', 'danger');
     }
     ui.addProduct(product);
     ui.resetForm();
