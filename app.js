@@ -34,7 +34,7 @@ class UI {
     deleteProduct (element) {
         if(element.name === 'delete') {
            element.parentElement.parentElement.parentElement.remove();
-           this.showMessage('URl Deleted Successfully', 'alert alert-danger');
+           this.showMessage('URL Deleted Successfully', 'alert alert-danger');
         }
 
     }
